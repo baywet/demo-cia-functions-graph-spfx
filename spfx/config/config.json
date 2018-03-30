@@ -1,0 +1,18 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "nice-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/nice/NiceWebPart.js",
+          "manifest": "./src/webparts/nice/NiceWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "NiceWebPartStrings": "lib/webparts/nice/loc/{locale}.js"
+  }
+}

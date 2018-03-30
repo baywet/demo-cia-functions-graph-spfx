@@ -1,0 +1,23 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxfnfe-client-side-solution",
+    "id": "67f968c6-9d9c-4491-ba62-ded1c9b10329",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "webApiPermissionRequests": [
+      {
+        "resource": "spfxgraphfunctions",
+        "scope": "user_impersonation"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Mail.Read"
+      }
+
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxfnfe.sppkg"
+  }
+}
